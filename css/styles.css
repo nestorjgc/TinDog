@@ -3,6 +3,11 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
 .row {
   color: black;
   /*   background-color: red;
@@ -13,11 +18,30 @@
   background-color: #ff4c68;
 }
 
+.p-2 {
+  color: #8f8f8f;
+  text-align: center;
+}
+
+.icon-red {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon-red:hover {
+  color: #ff4c68;
+}
+
+.h3-2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+}
+
 .title {
   font-family: "Montserrat";
   font-size: 3.5rem;
   line-height: 1.5;
-  width: 63%;
   margin-bottom: 28px;
   color: #fff;
   font-weight: bold;
@@ -29,6 +53,7 @@
 
 .rotate90 {
   transform: rotate(20deg);
+  width: 40%;
 }
 
 .navbar-brand {
@@ -52,4 +77,13 @@
 
 .download-button {
   margin: 5% 3% 5% 0 !important;
+}
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.feature-box {
+  padding: 5%;
 }
