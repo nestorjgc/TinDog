@@ -38,6 +38,19 @@ body {
   font-weight: 800;
 }
 
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.testimonial-image {
+  border-radius: 55%;
+  width: 10%;
+  margin: 20px;
+}
+
 .title {
   font-family: "Montserrat";
   font-size: 3.5rem;
@@ -86,4 +99,26 @@ body {
 
 .feature-box {
   padding: 5%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-weight: 700;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
