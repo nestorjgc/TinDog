@@ -66,7 +66,9 @@ h2 {
 
 .rotate90 {
   transform: rotate(20deg);
-  width: 40%;
+  width: 11%;
+  position: absolute;
+  right: 20%;
 }
 
 .navbar-brand {
@@ -123,11 +125,28 @@ h2 {
   padding: 7% 15%;
 }
 
-@media (max-width: 1200px) {
-  .testimonial-image {
-    position: static;
-  }
+.card {
+  height: 100%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1024px) {
   .rotate90 {
     transform: rotate(0);
+    position: static;
+    width: 50%;
+  }
+  #title {
+    text-align: center;
   }
 }
