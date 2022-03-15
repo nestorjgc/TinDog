@@ -140,6 +140,37 @@ h2 {
   padding: 3% 2%;
 }
 
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7%;
+}
+
+.montse {
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: bold;
+  font-size: 55px;
+  width: 80%;
+  margin: 0 auto;
+  width: 63%;
+  margin-bottom: 3%;
+}
+
+.btn-space {
+  margin-left: 1%;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-fa {
+  margin-left: 1%;
+}
+
 @media (max-width: 1024px) {
   .rotate90 {
     transform: rotate(0);
