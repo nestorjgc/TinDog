@@ -122,3 +122,12 @@ h2 {
 .carousel-item {
   padding: 7% 15%;
 }
+
+@media (max-width: 1200px) {
+  .testimonial-image {
+    position: static;
+  }
+  .rotate90 {
+    transform: rotate(0);
+  }
+}
