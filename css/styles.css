@@ -7,7 +7,16 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat";
 }
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
 .row {
   color: black;
   /*   background-color: red;
@@ -36,13 +45,6 @@ body {
   font-size: 1.5rem;
   text-align: center;
   font-weight: 800;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 700;
 }
 
 .testimonial-image {
